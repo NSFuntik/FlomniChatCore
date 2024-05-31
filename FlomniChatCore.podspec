@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlomniChatCore'
-  s.version          = '1.0.0'
+  s.version          = '0.0.1'
   s.summary          = 'A SwiftUI-based chat module for embedding in client applications.'
   s.description      = <<-DESC
 FlomniChat is a chat module built with SwiftUI that can be embedded into client applications.
