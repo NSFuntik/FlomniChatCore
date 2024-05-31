@@ -1,0 +1,35 @@
+PODS:
+  - FlomniChatCore (1.0.0):
+    - Socket.IO-Client-Swift
+  - Socket.IO-Client-Swift (16.1.0):
+    - Starscream (~> 4.0.6)
+  - Starscream (4.0.8)
+
+DEPENDENCIES:
+  - FlomniChatCore (from `../FlomniChatCore`)
+  - Socket.IO-Client-Swift (from `https://github.com/socketio/socket.io-client-swift.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - Starscream
+
+EXTERNAL SOURCES:
+  FlomniChatCore:
+    :path: "../FlomniChatCore"
+  Socket.IO-Client-Swift:
+    :branch: master
+    :git: https://github.com/socketio/socket.io-client-swift.git
+
+CHECKOUT OPTIONS:
+  Socket.IO-Client-Swift:
+    :commit: 175da8b5156f6b132436f0676cc84c2f6a766b6e
+    :git: https://github.com/socketio/socket.io-client-swift.git
+
+SPEC CHECKSUMS:
+  FlomniChatCore: 7c98a9ed63401dce750d087c702c255a7f50fa98
+  Socket.IO-Client-Swift: ee4b8f80a3db18dd7f32b266ddf273310609443c
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+
+PODFILE CHECKSUM: 2bd3b26affaad1a0111aa60e70abd36fc3c4ef47
+
+COCOAPODS: 1.15.2
