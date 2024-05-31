@@ -8,7 +8,7 @@ FlomniChat is a chat module built with SwiftUI that can be embedded into client 
   s.homepage         = 'https://i.dev.flomni.com/chat-corner/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NSFuntik' => 'nsfuntik@gmail.com' }
-  s.source           = { :git => 'https://github.com/NSFuntik/FlomniChatCore.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NSFuntik/FlomniChatCore.git', :branch => 'main' }
   s.ios.deployment_target = '15.0'
   s.source_files = 'build/FlomniChatCore.xcframework'
 
